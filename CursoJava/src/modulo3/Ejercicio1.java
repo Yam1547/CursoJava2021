@@ -8,11 +8,11 @@ public class Ejercicio1 {
 		// TODO Auto-generated method stub
 		
 		
-		float i = 0;
-		float j = i/0;
-		
-		System.out.println("i=" + i);
-		System.out.println("i=" + j);
+//		float i = 0;
+//		float j = i/0;
+//		
+//		System.out.println("i=" + i);
+//		System.out.println("i=" + j);
 
 		System.out.println("Ingrese una nota1...");
 		

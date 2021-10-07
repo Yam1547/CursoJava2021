@@ -5,18 +5,19 @@ public class Ejercicio3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		char tipoDivision;
+		char tipoDivision = 'a';
+		char tipoDivision1 = 'b';
+		char tipoDivision2 = 'c';		
 		byte cantidadDeGoles;
 		int capacidadDeCancha;
 		float promedioGoles;
+		short cantidadDePaises = 19933;
 		
-		
-		
-		
-		
-		
-		short s =25;
-		int i =1200;
+		cantidadDeGoles = 120;
+		capacidadDeCancha = 39999999;
+		promedioGoles= 95;
+		 
+	
 		
 		System.out.println();
 	}
