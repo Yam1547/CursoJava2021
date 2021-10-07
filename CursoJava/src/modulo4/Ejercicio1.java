@@ -27,13 +27,18 @@ public class Ejercicio1 {
 	 	
 	
 	
-		System.out.println("Muestro el teclado, cantidad de filas =" + teclado.length);
-		System.out.println("Muestro el teclado =" + teclado[3]);
 		
-		for (int fila=0; fila<teclado.length; fila++) {
-			for(int col=0; col< teclado[fila].length; col++)
-				System.out.println(teclado[col]);
+		System.out.println("Muestro el teclado");
+		System.out.println("Cantidad de filas=" + teclado.length);
+		System.out.println("Cantidad de columnas=" + teclado[0].length);
+		System.out.println("\n\nMostrar el teclado completo\n");
+		
+		for (int fila=0;fila<teclado.length; fila++){
+			for(int col = 0; col < teclado[fila].length; col++)
+				System.out.print("teclado["+fila + "]["+ col + "]=" + teclado[fila][col] + " , ");
+			System.out.println();
 		}
+
 			
 		
 		
