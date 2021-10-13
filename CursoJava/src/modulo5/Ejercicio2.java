@@ -7,16 +7,19 @@ public class Ejercicio2 {
 
 		
 		
-			for (int i =0; i <20; i++) {
+			int sumo;
+			for (int i = 0; i < 20; i ++) {
 				//si i = 2 resto vale 0 no se suma
 				// acá solamente se van a sumar números impares
-				int resto = i %2;
-			if(i%2 == 1)
-				sumo +=i;
+				int resto = i % 2;
+			if(i % 2 == 1)
+				sumo =+ i;
+			
+			//sumo = sumo + i * i % 2 //--> Algoritmo
 			}
 			
 			
-			sumo = sumo + i * i%2 //--> Algoritmo
+			
 	}
 
 }
