@@ -11,7 +11,7 @@ public class Ejercicio3 {
 		byte cantidadDeGoles;
 		int capacidadDeCancha;
 		float promedioGoles;
-		short cantidadDePaises = 19933;
+		short cantidadDePaises;
 		
 		cantidadDeGoles = 120;
 		capacidadDeCancha = 39999999;
@@ -19,7 +19,9 @@ public class Ejercicio3 {
 		 
 	
 		
-		System.out.println();
+		System.out.println(cantidadDeGoles);
+		System.out.println(capacidadDeCancha);
+		System.out.println(promedioGoles);
 	}
 
 }
