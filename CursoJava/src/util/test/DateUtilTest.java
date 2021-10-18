@@ -57,6 +57,11 @@ public class DateUtilTest {
 	public void testGetDia() {
 		assertEquals(15, DateUtil.getDia(fechaCumple));
 	}
+	
+	@Test
+	public void testGetFinde() {
+		assertEquals( true, DateUtil.isFinDeSemana(fechaCumple));
+	}
 
 
 

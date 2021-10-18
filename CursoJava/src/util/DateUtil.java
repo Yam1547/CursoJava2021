@@ -43,16 +43,27 @@ public class DateUtil {
 	return cal.get(Calendar.DATE);
 }
 	
+	public static boolean isFinDeSemana(Date fecha){
+		
+	Calendar cal = Calendar.getInstance(); 
+		
+	cal.setTime(fecha);
+		
+	int d = cal.get (Calendar.DAY_OF_WEEK);
+		
+	if((d == Calendar.SATURDAY) || (d == Calendar.SUNDAY));
+		
+	return true;
+		
+	}
+	
+	//SimpleDateFormat -> recibe una fecha
+	// inclusiva, exclusiva
+    // int dia = Integer.parseInt( strfecha.subString(0,2))	
+    // int mes = Integer.parseInt( strfecha.subString(3,5))	
 //	public static boolean isFinDeSemana(Date fecha) {
 //
-//	Calendar cal = Calendar.getInstance();// factory, singleton
-//
-//	cal.setTime(fecha);
-//
-//	if (fecha == "Sábado" && "Domingo")
-//
-//		return cal.get(Calendar.DAY_OF_WEEK, "");
-//}
+
 	
 	
 	
